@@ -39,6 +39,7 @@ const ResultList = () => {
     if (error) {
         return <h1 className="text-center mt-44 text-5xl text-dark-500">No Definition Found 🤡</h1>
     }
+
     return (
         <>
             <div className="container mx-auto p-4 max-w-2xl">
