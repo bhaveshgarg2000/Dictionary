@@ -13,7 +13,6 @@ Check out the live demo: [Dictionary App](https://dictionary-bhavesh.vercel.app/
 
    git clone https://github.com/your-username/dictionary-app.git
 
-
 2. Navigate into the project directory:
 
 
@@ -62,4 +61,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - The definitions in this app are fetched from [Free Dictionary API](https://dictionaryapi.dev/).
-- Built with ❤️ by [Your Name](https://github.com/your-username).
