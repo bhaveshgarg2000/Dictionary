@@ -2,10 +2,7 @@ import { useContext, useState } from 'react'
 import '../App.css'
 import { InputContext } from '../App';
 const AppBar = () => {
-
-
     const [value, setValue] = useState("");
-
     const { inputValue, setInputValue, } = useContext(InputContext)
     const handleInputChange = (e) => {
         setValue(e.target.value)
@@ -13,7 +10,6 @@ const AppBar = () => {
     const handleSubmit = () => {
         setInputValue(value)
         setValue("")
-        // console.log("Clicked")
     }
     const handleInputKeyDown = (e) => {
         if (e.key === 'Enter') {
@@ -46,16 +42,12 @@ const AppBar = () => {
                                 onClick={handleSubmit}>
                                 Search</button>
                         </div>
-
                     </div>
                     {inputValue && (<h3 className='text-center mt-5 text-gray-50'>Result for : <span
-                        className='text-white font-bold'>{inputValue}</span></h3>)}
+                        className='text-white font-bold capitalize'>{inputValue}</span></h3>)}
                 </div>
-
             </div>
-
         </>
     )
 }
-
 export default AppBar
