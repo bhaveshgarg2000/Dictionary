@@ -11,25 +11,27 @@ Check out the live demo: [Dictionary App](https://dictionary-bhavesh.vercel.app/
 
 1. Clone this repository to your local machine:
 
+   ```bash
    git clone https://github.com/your-username/dictionary-app.git
+````
 
 2. Navigate into the project directory:
 
-
+   ```bash
    cd dictionary-app
-
+   ```
 
 3. Install dependencies using npm or yarn:
 
-
+   ```bash
    npm install
-
+   ```
 
 4. Start the development server:
 
-
+   ```bash
    npm run dev
-
+   ```
 
 5. Open your browser and navigate to `http://localhost:3000` to view the app.
 
@@ -61,3 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - The definitions in this app are fetched from [Free Dictionary API](https://dictionaryapi.dev/).
+- Built with ❤️ by [Your Name](https://github.com/your-username).
