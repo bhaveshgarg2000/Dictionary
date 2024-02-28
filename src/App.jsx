@@ -7,7 +7,7 @@ export const InputContext = createContext();
 // APP
 function App() {
   const [inputValue, setInputValue] = useState("");
-  console.log(inputValue)
+  // console.log(inputValue)
 
   const Value = {
     inputValue,
