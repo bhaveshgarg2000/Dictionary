@@ -13,7 +13,7 @@ function App() {
     inputValue,
     setInputValue,
   }
-  console.log(inputValue)
+  // console.log(inputValue)
   return (
     <>
       <InputContext.Provider value={Value}>
